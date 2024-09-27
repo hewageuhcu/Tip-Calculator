@@ -14,7 +14,7 @@ class MainActivity extends ComponentActivity {
 @Override
     protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_main);
+    setContentView(R.layout.tip_cal_main);
 
     etBillAmount = findViewById(R.id.etBillAmount);
     etTipPercent = findViewById(R.id.etTipPercent);
