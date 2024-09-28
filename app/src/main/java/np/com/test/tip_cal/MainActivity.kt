@@ -35,7 +35,7 @@ class MainActivity : ComponentActivity() {
             val tipPercent = tipPercentStr.toDouble()
             val tipAmount = (billAmount * tipPercent) / 100
 
-            tvTipResult.text = "Tip Amount: $${"%.2f".format(tipAmount)}"
+            tvTipResult.text = "Tip Amount: LKR${"%.2f".format(tipAmount)}"
         } else {
             tvTipResult.text = "Please enter both values"
         }
