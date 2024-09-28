@@ -2,7 +2,6 @@ package np.com.test.tip_cal
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
-import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
